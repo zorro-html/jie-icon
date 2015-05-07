@@ -17,14 +17,14 @@ Icons encapsulated from [glyphicons](http://glyphicons.com/)
 @example default
 
 <style>
-  p {max-height: 320px; overflow: auto; padding: 10px 15px; border-radius: 5px; border: 1px #ccc solid;}
-  p > span {cursor: pointer; color: #999; width: 240px; display: inline-block;}
-  p > span:hover {color: #000;}
-  p > span:active {color: #F60;}
-  p z-icon {font-size: 24px; vertical-align: middle;}
+  p[case="z-icon"] {max-height: 320px; overflow: auto; padding: 10px 15px; border-radius: 5px; border: 1px #ccc solid;}
+  p[case="z-icon"] > span {cursor: pointer; color: #999; width: 240px; display: inline-block;}
+  p[case="z-icon"] > span:hover {color: #000;}
+  p[case="z-icon"] > span:active {color: #F60;}
+  p[case="z-icon"] z-icon {font-size: 24px; vertical-align: middle;}
 </style>
 
-<p>
+<p case="z-icon">
   <span><z-icon name="asterisk"></z-icon> asterisk</span>
   <span><z-icon name="plus"></z-icon> plus</span>
   <span><z-icon name="euro"></z-icon> euro</span>
